@@ -1,0 +1,7 @@
+1. tsc filename.ts // will compile with .ts file
+2. tsc filename.ts --watch or -w  // will automatically compile the file
+3. 'tsc --init' after that just 'tsc -w' 
+
+// this means that 'tsconfig.json' wil be created and whole project will 
+be managed by TS. It will go into watch mode to watch all .ts 
+files automatically. Then we configure tsconfig file.
